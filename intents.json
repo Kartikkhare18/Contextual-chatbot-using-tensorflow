@@ -1,0 +1,102 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi", "Hello Amizone", "Hello", "Start"],
+         "responses": ["Hello, This is Amizone, How can we help you?"],
+         "context_set": ""
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye"],
+         "responses": ["See you later, thanks for visiting Amizone", "Have a nice day", "Bye! Come back again soon."]
+        },
+{"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful"],
+         "responses": ["Happy to help!", "Any time!", "Our pleasure.", "Glad we were useful."]
+        },
+{"tag": "amizone",
+         "patterns": ["What is amizone?", "What are you?"],
+         "responses": ["Amizone is a unique comprehensive Cloud-based Learning Management System. Students and Faculty continuously interact through Amizone one of the most hi-tech university intranet portals in the world that brings a world-class online experience for Amity students."]
+        },
+{"tag": "attendance",
+         "patterns": ["What is the minimum attendance required for each subject?", "How to check attendance?"],
+         "responses": ["You need atleast 75% attendance in every subject to avoid getting debarred. You can check your attendance for every course in the pie chart on the home section."]
+        },
+{"tag": "courses",
+         "patterns": ["What are my courses in this semester?", "How many courses do i have this semester?", "Where can i find the list of all the courses for this semester?"],
+         "responses": ["You can find all the details about your subjects/courses in 'My Courses' section in the side menu on the left."]
+        },
+{"tag": "faculty",
+         "patterns": ["Which faculties will teach me this semester?", "Which faculties are alloted to me?", "Faculty", "Faculties alloted for this semester"],
+         "responses": ["You can find all the details about the faculty in 'My Faculty' section in the side menu on the left."]
+        },
+        {"tag": "todaystimetable",
+         "patterns": ["timetable"],
+         "responses": ["You can find the timetable on the home section of Amizone", "You can check the timetable for today in the side menu on the left."]
+        },
+        {"tag": "classes",
+         "patterns": ["How many classes do i have to attend every day?", "How many classes will there be in total?", "Classes"],
+         "responses": ["There will be Classes from 9:15 A.M. till 5:10 P.M. with lunch break from 1:10 P.M. to 2:15 P.M., there will classes 5 days a week i.e. monday to friday.", "You can check the timetable for today in drop down menu in the left side."]
+        },
+        {"tag": "fees",
+         "patterns": ["Fees"],
+         "responses": ["You can find the fees section in side menu on the left. Here you can find every related detail regarding fees."]},
+        {"tag": "LMS",
+         "patterns": ["How can i access the LMS?", "How can i access the lms?", "Where is LMS?", "Where is lms?", "LMS", "lms"],
+         "responses": ["Scroll down the home section of to access the LMS."]
+        },
+        {"tag": "registration",
+         "patterns": ["Registration for next semester", "How to register for next semester?"],
+         "responses": ["You can register for next semester in side menu on the left."]
+        },
+        {"tag": "profile",
+         "patterns": ["profile"],
+         "responses": ["Go to the home section of Amizone and then on the navigation bar, then click on the right side of the bar to access your profile."]
+        },
+        {"tag": "hostel",
+         "patterns": ["whom should i contact to queries regarding hostel?", "hostel"],
+         "responses": ["For Hostel related information click on the hostel section in the side menu on the left and register in it. You can also contact the class coordinator for more details."]},
+        {"tag": "hostelhours",
+         "patterns": ["what are hostel hours?", "Hostel hours"],
+         "responses": ["Hostellers are not allowed to go outside the university campus before 10:00 A.M. and after 8:00 A.M., to go outside the university campus the student must carry his/her ID card and fill up the entries at the university gate."]
+        },
+        {"tag": "notices",
+         "patterns": ["Notice", "Is there any new notice?"],
+         "responses": ["You an check the bell icon on the navigation bar on the home secction of amizone for new notices.", "Scroll down the home section for notices."]
+        },
+        {"tag": "wifi",
+         "patterns": ["How to enroll for wifi services in amity university?", "wifi", "wifi services"],
+         "responses": ["Contact the IT department about wifi registration at A-Block in the campus."]
+        },
+        {"tag": "examination",
+         "patterns": ["How to register for End semester exams?", "Exam registration"],
+         "responses": ["Open the side menu on the left, click on Examination and then in the drop down menu click on Examination Form for registration."]
+        },
+        {"tag": "results",
+         "patterns": ["How to check the exam result?", "result", "Exam result"],
+         "responses": ["Open the side menu on the left, click on Examination and then in the drop down menu click on Examination Form for exam results."]
+        },
+        {"tag": "calendar",
+         "patterns": ["calendar"],
+         "responses": ["The calendar shows the daily classes and forthcoming happenings. You can access the calender section in the side menu on the left or click on the calendar icon on the navigation bar at the home section."]
+        },
+        {"tag": "Scholarship",
+         "patterns": ["scholarship"],
+         "responses": ["Contact your class coordinator."]
+        },
+        {"tag": "aboutus",
+         "patterns": ["about amity", "about"],
+         "responses": ["https://www.amity.edu/gwalior/"]
+        },
+        {"tag": "placement",
+         "patterns": ["what was last year's placement record?"],
+         "responses": ["https://www.amity.edu/gwalior/about-placements"]
+        },
+        {"tag": "amityfaculty",
+         "patterns": ["Faculties of other departments", "amity faculty"],
+         "responses": ["https://www.amity.edu/gwalior/about-faculty"]
+        },
+{"tag": "location",
+         "patterns": ["Where is amity university madhya pradesh?", "amity university location", "Where is amity university madhya pradesh situated? "],
+         "responses": ["https://www.google.com/maps/place/Amity+University/@26.2727152,78.226201,17z/data=!3m1!4b1!4m5!3m4!1s0x3976c0e647bece07:0xd848338a0d6a5393!8m2!3d26.2727152!4d78.2283897"]
+        }
+]  
+}
